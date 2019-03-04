@@ -1,18 +1,19 @@
 *{box-sizing: border-box;}
 
 body {
-    font-size: 12px;
-    line-height: 20px;
-    color: #333;
-    font-family: Arial, Helvetica, sans-serif;
-    
+  font-size: 16px;
+  line-height: 20px;
+  color: #333;
+  font-family: Arial, Helvetica, sans-serif;
 }
-h1 {color: #4aaaa5;
-    margin-left: 20px ;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+h1 {
+  color: #4aaaa5;
+  margin-left: 20px ;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-h4 {color:#ffffff;
+h4 {
+  color:#ffffff;
   background-color: #4aaaa5;
   margin-left: 10px ;
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -20,89 +21,160 @@ h4 {color:#ffffff;
 }
 
 header {
-    position:fixed;
-    width:100%;
-    left: 0;
-    top: 0;
-    background: #ffffff;
-    border: 1px solid #cccccc;
-  }
- 
+  position:fixed;
+  width:100%;
+  left: 0;
+  top: 0;
+  background: #ffffff;
+  border: 1px solid #cccccc;
+}
 
+#name {
+  float: left;
+  left: 155px;
+  position: relative;
+  Padding:20px;
+  background: #4aaaa5;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size:18px;
+  color: white;
+}
 
-  #name {
-      float: left;
-      left: 155px;
-      position: relative;
-      Padding:20px;
-      background: #4aaaa5;
-      font-family: Georgia, 'Times New Roman', Times, serif;
-      font-size:18px;
-      color: white;
+a {
+  color: #777777
+}
 
-  }
-  a {
-    color: #777777
-  }
+li {
+  padding: 5px;
+  float: left;
+  border-right: .10px solid #777777;
+  list-style:none;
+} 
 
- li {
-   padding: 5px;
-   float: left;
-   border-right: .10px solid #777777;
-   list-style:none;
- } 
-  nav {
-    float: right;
-    position: relative;
-    top: 15px;
-    right: 70px;
-    font-size: 12px;
-    font-family: Arial, Helvetica, sans-serif;
-  }
+nav {
+  float: right;
+  position: relative;
+  top: 15px;
+  right: 250px;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
-  #contact {
-    float: left;
-    border-right:
-  }
+#contact {
+  float: left;
+}
 
-  img {
-      float: left;
-      padding: 10px;
-    }
+img {
+  float: left;
+  padding: 10px;
+  height:250px;
+  width:250px;
+}
 
-  #about {
-    position: relative; 
-    left:150px; 
-    top:100px;
-    width: 70%;
-    padding:20px;
-    border: 1px solid #cccccc;
-    overflow: auto;
-    clear: both;
-    color: #777777;
-    background: #ffffff;
-  }
+#about {
+  position: relative; 
+  left:150px; 
+  top:100px;
+  width: 960px;
+  height:500px;
+  padding:20px;
+  border: 1px solid #cccccc;
+  overflow: auto;
+  clear: both;
+  color: #777777;
+  background: #ffffff;
+}
+
+#contactbox {   
+  position: relative; 
+  left:150px; 
+  top:100px;
+  width: 960px;
+  height:500px;
+  padding:20px;
+  border: 1px solid #cccccc;
+  overflow: auto;
+  clear: both;
+  color: #777777;
+  background: #ffffff;
+}
+
+#portfoliobox {
+  position: relative; 
+  left:150px; 
+  top:100px;
+  width: 960px;
+  height:600px;
+  padding:20px;
+  border: 1px solid #cccccc;
+  overflow: auto;
+  clear: both;
+  color: #777777;
+  background: #ffffff;
+}
+
 #hangman {
   position: fixed;
   width:23.4%;
   top: 280px;
   padding: .1px;
   background-color: #4aaaa5
-
 }
-  footer {
-    position:fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    border-top: 5px solid #4aaaa5;
-    padding:30px;
-    clear: both;
-    background: #666666;
-  }
-  .container{
-    position: absolute;
-    left: 150px;
-    top: 150px;
-  }
- 
+
+footer {
+  position:fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  border-top: 5px solid #4aaaa5;
+  padding: 20px;
+  clear: both;
+  background: #666666;
+}
+  
+input[type=text], select, textarea {
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  color:#777777;
+  width: 98%;
+  padding: 5px;  
+  border: 1px solid #ccc; 
+  margin-top: 6px; 
+  margin-bottom: 6px; 
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4aaaa5;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #4aaaa5;
+}
+
+.container {
+  border-radius: 5px;
+  padding: 8px;
+}
+.img-container{
+position:relative;
+text-align: center;
+color:white;
+width:35%;
+float: left;
+}
+
+.centered {
+  background-color:#4aaaa5;
+  width: 72%;
+  position: absolute;
+  top: 79%;
+  left:39%;
+  transform: translate(-50%,-50%);
+  color: #ffffff;
+  padding: 10px 3px;
+}
