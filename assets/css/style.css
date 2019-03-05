@@ -178,3 +178,50 @@ float: left;
   color: #ffffff;
   padding: 10px 3px;
 }
+@media screen and (max-width:980px) {
+  #about {
+
+  }
+}
+
+@media screen and (max-width:768px) {
+}
+
+@media screen and (max-width:640px) {
+  #about {
+    width:100%;
+    font-size:12px;
+  
+  } 
+  #name {
+    width:100%;
+    float: none;
+    
+  }
+  #portfoliobox {
+   float: none;
+    width:100%;
+  }
+  header {
+    width:640px;
+  }
+  footer {
+    width:640px;
+  }
+
+  .img-container {
+    width:25%;  
+    float: none;  
+    
+  }
+  .centered {
+    width:100%;
+  }
+  img {
+    float: none;
+  
+  }
+  h1 {
+    text-align: center;
+  }
+}
