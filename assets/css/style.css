@@ -1,4 +1,6 @@
-*{box-sizing: border-box;}
+* {
+  box-sizing: border-box;
+}
 
 body {
   font-size: 16px;
@@ -6,23 +8,24 @@ body {
   color: #333;
   font-family: Arial, Helvetica, sans-serif;
 }
+
 h1 {
   color: #4aaaa5;
-  margin-left: 20px ;
+  margin-left: 20px;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 h4 {
-  color:#ffffff;
+  color: #ffffff;
   background-color: #4aaaa5;
-  margin-left: 10px ;
+  margin-left: 10px;
   font-family: Georgia, 'Times New Roman', Times, serif;
   text-align: center;
 }
 
 header {
-  position:fixed;
-  width:100%;
+  position: fixed;
+  width: 100%;
   left: 0;
   top: 0;
   background: #ffffff;
@@ -34,10 +37,10 @@ header {
   float: left;
   left: 155px;
   position: relative;
-  Padding:20px;
+  Padding: 20px;
   background: #4aaaa5;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size:18px;
+  font-size: 18px;
   color: white;
 }
 
@@ -49,8 +52,8 @@ li {
   padding: 5px;
   float: left;
   border-right: .10px solid #777777;
-  list-style:none;
-} 
+  list-style: none;
+}
 
 nav {
   float: right;
@@ -68,17 +71,17 @@ nav {
 img {
   float: left;
   padding: 10px;
-  height:250px;
-  width:250px;
+  height: 250px;
+  width: 250px;
 }
 
 #about {
-  position: relative; 
-  left:150px; 
-  top:100px;
+  position: relative;
+  left: 150px;
+  top: 100px;
   width: 960px;
-  height:500px;
-  padding:20px;
+  height: 500px;
+  padding: 20px;
   border: 1px solid #cccccc;
   overflow: auto;
   clear: both;
@@ -86,13 +89,13 @@ img {
   background: #ffffff;
 }
 
-#contactbox {   
-  position: relative; 
-  left:150px; 
-  top:100px;
+#contactbox {
+  position: relative;
+  left: 150px;
+  top: 100px;
   width: 960px;
-  height:500px;
-  padding:20px;
+  height: 500px;
+  padding: 20px;
   border: 1px solid #cccccc;
   overflow: auto;
   clear: both;
@@ -101,12 +104,12 @@ img {
 }
 
 #portfoliobox {
-  position: relative; 
-  left:150px; 
-  top:100px;
+  position: relative;
+  left: 150px;
+  top: 100px;
   width: 960px;
-  height:600px;
-  padding:20px;
+  height: 600px;
+  padding: 20px;
   border: 1px solid #cccccc;
   overflow: auto;
   clear: both;
@@ -116,14 +119,14 @@ img {
 
 #hangman {
   position: fixed;
-  width:23.4%;
+  width: 23.4%;
   top: 280px;
   padding: .1px;
   background-color: #4aaaa5
 }
 
 footer {
-  position:fixed;
+  position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -132,16 +135,18 @@ footer {
   clear: both;
   background: #666666;
 }
-  
-input[type=text], select, textarea {
+
+input[type=text],
+select,
+textarea {
   font-size: 12px;
   font-family: Arial, Helvetica, sans-serif;
-  color:#777777;
+  color: #777777;
   width: 98%;
-  padding: 5px;  
-  border: 1px solid #ccc; 
-  margin-top: 6px; 
-  margin-bottom: 6px; 
+  padding: 5px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 6px;
   resize: vertical;
 }
 
@@ -161,266 +166,248 @@ input[type=submit]:hover {
   border-radius: 5px;
   padding: 8px;
 }
-.img-container{
-position:relative;
-text-align: center;
-color:white;
-width:35%;
-float: left;
+
+.img-container {
+  position: relative;
+  text-align: center;
+  color: white;
+  width: 35%;
+  float: left;
 }
 
 .centered {
-  background-color:#4aaaa5;
+  background-color: #4aaaa5;
   width: 72%;
   position: absolute;
   top: 79%;
-  left:39%;
-  transform: translate(-50%,-50%);
+  left: 39%;
+  transform: translate(-50%, -50%);
   color: #ffffff;
   padding: 10px 3px;
 }
+
 @media screen and (max-width:980px) {
-  #about {  
-    left:50px;
-    width:75%;
-    height: 80%;
-  
-  } 
+  #about {
+      left: 50px;
+      width: 75%;
+      height: 80%;
+  }
   #profile {
-    height: 250px;
-    width: 250px;
+      height: 250px;
+      width: 250px;
   }
   #contactbox {
-    width: 70%;
-    left: 50px;
+      width: 70%;
+      left: 50px;
   }
- nav {
-   float: right;
-   top:10px;
-   right:40px;
-    
+  nav {
+      float: right;
+      top: 10px;
+      right: 40px;
   }
   #portfoliobox {
-   top: 100px;
-   left: 60px;
-   width:70%;
-  
+      top: 100px;
+      left: 60px;
+      width: 70%;
   }
   header {
-    width:980px;
-    
+      width: 980px;
   }
   footer {
-    width:980px;
+      width: 980px;
   }
-
   .img-container {
-    width:50%;  
-    height: 50%;
+      width: 50%;
+      height: 50%;
   }
-  
   #name {
-    left: 60px
+      left: 60px
   }
   .centered {
-  width: 82%;
-  left: 45%;
+      width: 82%;
+      left: 45%;
   }
-
   img {
-  height: 100%;
-  width:  100%;
-  float: left;
+      height: 100%;
+      width: 100%;
+      float: left;
   }
   h1 {
-    text-align: left;
+      text-align: left;
   }
-
-  
 }
 
 @media screen and (max-width: 768px) {
   #about {
-    height:80%;
-    width:75%;
-  
-  } 
-  #contactbox {
-    width: 90%;
-    left: 50px;
+      height: 80%;
+      width: 75%;
   }
- nav {
-   float: right;
-   top:10px;
-   right:40px;
-    
+  #contactbox {
+      width: 90%;
+      left: 50px;
+  }
+  nav {
+      float: right;
+      top: 10px;
+      right: 40px;
   }
   #profile {
-    height: 250px;
-    width: 250px;
+      height: 250px;
+      width: 250px;
   }
   #portfoliobox {
-   top: 100px;
-   left: 80px;
-    width:80%;
-    align-items:
+      top: 100px;
+      left: 80px;
+      width: 80%;
+      align-items:
   }
   header {
-    width:768px;
+      width: 768px;
   }
   footer {
-    width:768px;
+      width: 768px;
   }
-
   .img-container {
-    width:50%;  
-    height: 50%;
+      width: 50%;
+      height: 50%;
   }
-
   #name {
-    left: 60px
+      left: 60px
   }
   .centered {
-  width: 82%;
-  left: 45%;
+      width: 82%;
+      left: 45%;
   }
-
   img {
-  height: 100%;
-  width:  100%;
-  float: left;
+      height: 100%;
+      width: 100%;
+      float: left;
   }
   h1 {
-    text-align: left;
+      text-align: left;
   }
-
 }
+
 @media screen and (max-width:640px) {
   #about {
-    top: 120px;
-    left: 80px;
-    width:80%;
-  } 
+      top: 120px;
+      left: 80px;
+      width: 80%;
+  }
   #name {
-    width:100%;
-    float: none;
-    left: 0px;
-    
-    font-size: 24px;
-    position: relative;
+      width: 100%;
+      float: none;
+      left: 0px;
+      font-size: 24px;
+      position: relative;
   }
   #portfoliobox {
-    top: 130px;
-    width:75%;
-    padding:10px;
-    height: 740px;
+      top: 130px;
+      width: 75%;
+      padding: 10px;
+      height: 740px;
   }
   #contactbox {
-    width:80%;
-    top: 130px;
-    left: 70px;
+      width: 80%;
+      top: 130px;
+      left: 70px;
   }
   header {
-    width:640px;
-    padding-bottom: 20px;
-   
+      width: 640px;
+      padding-bottom: 20px;
   }
   footer {
-    width:640px;
-    
+      width: 640px;
   }
   #profile {
-    height: 250px;
-    width: 250px;
+      height: 250px;
+      width: 250px;
   }
-  nav{
-   float: none;
-   left: 15px;
-   font-size:18px;
-   position: relative;
+  nav {
+      float: none;
+      left: 15px;
+      font-size: 18px;
+      position: relative;
   }
   .img-container {
-    width:80%;  
-    height: 50%;
-    float: none; 
-    padding-left:30px;
-    margin: 30px;
+      width: 80%;
+      height: 50%;
+      float: none;
+      padding-left: 30px;
+      margin: 30px;
   }
   .centered {
-    width:85%;
-    left:54%;
-    top:250px;
+      width: 85%;
+      left: 54%;
+      top: 250px;
   }
- img {
-   height: 100%;
-   width: 100%;
-   
- }
+  img {
+      height: 100%;
+      width: 100%;
+  }
   h1 {
-    text-align: left;
+      text-align: left;
   }
 }
+
 @media screen and (max-width:375px) {
   #about {
-    top: 130px;
-    left: 40px;
-    width:80%;
-  } 
+      top: 130px;
+      left: 40px;
+      width: 80%;
+  }
   #name {
-    width:100%;
-    float: none;
-    left: 0px;
-    font-size: 24px;
-    position: relative;
+      width: 100%;
+      float: none;
+      left: 0px;
+      font-size: 24px;
+      position: relative;
   }
   #portfoliobox {
-    top: 130px;
-    width:75%;
-    padding:10px;
-    left: 40px;
+      top: 130px;
+      width: 75%;
+      padding: 10px;
+      left: 40px;
   }
   #contactbox {
-    width:80%;
-    top: 130px;
-    left: 40px;
-    height: 70%;
+      width: 80%;
+      top: 130px;
+      left: 40px;
+      height: 70%;
   }
   header {
-    width:640px;
-    padding-bottom: 20px;
-   
+      width: 640px;
+      padding-bottom: 20px;
   }
   footer {
-    width:640px;
-    
+      width: 640px;
   }
   #profile {
-    height: 250px;
-    width: 250px;
+      height: 250px;
+      width: 250px;
   }
-  nav{
-   float: none;
-   left: 15px;
-   font-size:18px;
-   position: relative;
-   left:85px ;
+  nav {
+      float: none;
+      left: 15px;
+      font-size: 18px;
+      position: relative;
+      left: 85px;
   }
   .img-container {
-    width:100%;  
-    padding: 0px;
-    margin: 0px;
+      width: 100%;
+      padding: 0px;
+      margin: 0px;
   }
   .centered {
-    width:92%;
-    left:50%;
-    top:250px;
+      width: 92%;
+      left: 50%;
+      top: 250px;
   }
- img {
-   height: 100%;
-   width: 100%;
-   
- }
+  img {
+      height: 100%;
+      width: 100%;
+  }
   h1 {
-    text-align: left;
+      text-align: left;
   }
 }
