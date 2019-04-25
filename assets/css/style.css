@@ -38,7 +38,7 @@ header {
   left: 155px;
   position: relative;
   Padding: 20px;
-  background: #53af90;
+  background: #53af90e6;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 18px;
   color: white;
@@ -101,7 +101,7 @@ img {
   overflow: auto;
   clear: both;
   color: #777777;
-  background: #ffffff;
+  background:rgba(255, 255, 255, 0.882);
 }
 
 #portfoliobox {
@@ -115,7 +115,7 @@ img {
   overflow: auto;
   clear: both;
   color: #777777;
-  background: #ffffff;
+  background:rgba(255, 255, 255, 0.882);
 }
 
 #hangman {
@@ -133,7 +133,7 @@ footer {
   width: 100%;
   padding: 20px;
   clear: both;
-  border-top: 3px solid #53af90;
+  border-top: 3px solid #53af90e6;
   background: rgba(255, 255, 255, 0.882);
 }
 
