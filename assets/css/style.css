@@ -10,14 +10,14 @@ body {
 }
 
 h1 {
-  color: #4aaaa5;
+  color: #53af90;
   margin-left: 20px;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 h4 {
   color: #ffffff;
-  background-color: #4aaaa5;
+  background-color: #53af90;
   margin-left: 10px;
   font-family: Georgia, 'Times New Roman', Times, serif;
   text-align: center;
@@ -28,7 +28,7 @@ header {
   width: 100%;
   left: 0;
   top: 0;
-  background: #ffffff;
+  background: rgba(255, 255, 255, 0.882);
   border: 1px solid #cccccc;
   z-index: 1;
 }
@@ -38,7 +38,7 @@ header {
   left: 155px;
   position: relative;
   Padding: 20px;
-  background: #4aaaa5;
+  background: #53af90;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 18px;
   color: white;
@@ -73,6 +73,7 @@ img {
   padding: 10px;
   height: 250px;
   width: 250px;
+  
 }
 
 #about {
@@ -86,7 +87,7 @@ img {
   overflow: auto;
   clear: both;
   color: #777777;
-  background: #ffffff;
+  background: rgba(255, 255, 255, 0.882);
 }
 
 #contactbox {
@@ -122,7 +123,7 @@ img {
   width: 23.4%;
   top: 280px;
   padding: .1px;
-  background-color: #4aaaa5
+  background-color: #53af90;
 }
 
 footer {
@@ -130,10 +131,10 @@ footer {
   left: 0;
   bottom: 0;
   width: 100%;
-  border-top: 5px solid #4aaaa5;
   padding: 20px;
   clear: both;
-  background: #666666;
+  border-top: 3px solid #53af90;
+  background: rgba(255, 255, 255, 0.882);
 }
 
 input[type=text],
@@ -151,7 +152,7 @@ textarea {
 }
 
 input[type=submit] {
-  background-color: #4aaaa5;
+  background-color: #53af90;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -159,7 +160,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #4aaaa5;
+  background-color: #53af90;
 }
 
 .container {
@@ -176,7 +177,7 @@ input[type=submit]:hover {
 }
 
 .centered {
-  background-color: #4aaaa5;
+  background-color: #53af90;
   width: 72%;
   position: absolute;
   top: 79%;
