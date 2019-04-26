@@ -1,25 +1,30 @@
 * {
   box-sizing: border-box;
 }
-
+p{
+  font-family: 'Cormorant Upright', serif;
+  font-size: 20px;
+  font-weight: bold;
+}
 body {
   font-size: 16px;
   line-height: 20px;
-  color: #333;
-  font-family: Arial, Helvetica, sans-serif;
+  color: #53af90;
+  font-family: 'Clicker Script', cursive;
 }
 
 h1 {
   color: #53af90;
   margin-left: 20px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-family: 'Petit Formal Script', cursive;
 }
 
 h4 {
   color: #ffffff;
   background-color: #53af90;
   margin-left: 10px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: 'Clicker Script', cursive;
   text-align: center;
 }
 
@@ -35,17 +40,17 @@ header {
 
 #name {
   float: left;
-  left: 155px;
+  left: 80px;
   position: relative;
   Padding: 20px;
-  background: #53af90e6;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 18px;
-  color: white;
+  font-family: 'Petit Formal Script', cursive;
+  font-weight: bolder;
+  font-size: 30px;
+  color: #53af90e6;
 }
 
 a {
-  color: #777777
+  color: #53af90;
 }
 
 li {
@@ -59,9 +64,10 @@ nav {
   float: right;
   position: relative;
   top: 15px;
-  right: 250px;
-  font-size: 12px;
-  font-family: Arial, Helvetica, sans-serif;
+  right: 150px;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Petit Formal Script', cursive;
 }
 
 #contact {
@@ -78,7 +84,7 @@ img {
 
 #about {
   position: relative;
-  left: 150px;
+  left: 80px;
   top: 100px;
   width: 960px;
   height: 500px;
@@ -86,7 +92,7 @@ img {
   border: 1px solid #cccccc;
   overflow: auto;
   clear: both;
-  color: #777777;
+  color: #53af90;;
   background: rgba(255, 255, 255, 0.882);
 }
 
@@ -131,7 +137,7 @@ footer {
   left: 0;
   bottom: 0;
   width: 100%;
-  padding: 20px;
+  padding: 10px;
   clear: both;
   border-top: 3px solid #53af90e6;
   background: rgba(255, 255, 255, 0.882);
@@ -140,8 +146,8 @@ footer {
 input[type=text],
 select,
 textarea {
-  font-size: 12px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-family: 'Cormorant Upright', serif;
   color: #777777;
   width: 98%;
   padding: 5px;
@@ -157,6 +163,7 @@ input[type=submit] {
   padding: 12px 20px;
   border: none;
   cursor: pointer;
+  font-family: 'Cormorant Upright', serif;
 }
 
 input[type=submit]:hover {
