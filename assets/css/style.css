@@ -100,19 +100,7 @@ img {
   color: #53af90;;
   background: rgba(255, 255, 255, 0.882);
 }
-#resume{
-  position: relative;
-  left: 130px;
-  top: 100px;
-  width: 960px;
-  height: 500px;
-  padding: 20px;
-  border: 1px solid #cccccc;
-  overflow: auto;
-  clear: both;
-  color: #53af90;;
-  background: rgba(255, 255, 255, 0.882);
-}
+
 #contactbox {
   position: relative;
   left:130px;
