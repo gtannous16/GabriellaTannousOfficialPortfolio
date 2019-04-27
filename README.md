@@ -1,1 +1,5 @@
-Gabriella Tannous' Portfolio
+Portfolio link: https://gtannous16.github.io/GabriellaTannousOfficialPortfolio/
+
+Gabriella Tannous is an enthusiastic web developer with an eye for design stemming from her business marketing experience at Saks Fifth Avenue. Having overcome many adversities, she is no stranger to hard work and understands the importance of adaptability. 
+
+In her spare time, she works for an organization that shapes young teen minds, their spiritual growth and work ethic. She oversaw and mentored the teens in developing their website and came to the conclusion that she enjoyed the technical and coding aspect as much as she did the design. She has since then found a passion for programming and hopes to grow into a position as a front or backend developer for a well-established and trusted organization. Gabriella is well versed in HTML, CSS, JavaScript, jQuery, AJAX, React.js, C#, Node.js, Express.js, MySQL, MongoDB, Git, GitHub, Heroku and more.  Her fun-loving personality and strong communication skills make her stand out amongst others as someone you want on your team.
