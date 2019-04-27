@@ -82,7 +82,11 @@ img {
   width: 250px;
   
 }
-
+#giticon{
+  height: 50px !important;
+  width: 50px !important;
+  float: left;
+}
 #about {
   position: relative;
   left: 130px;
