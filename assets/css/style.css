@@ -82,6 +82,11 @@ img {
   width: 250px;
   
 }
+#profile{
+  padding: 10px;
+  height: 250px;
+  width: 200px;
+}
 #giticon{
   height: 50px !important;
   width: 50px !important;
@@ -209,10 +214,7 @@ input[type=submit]:hover {
       width: 75%;
       height: 80%;
   }
-  #profile {
-      height: 250px;
-      width: 250px;
-  }
+
   #contactbox {
       width: 70%;
       left: 50px;
@@ -283,7 +285,7 @@ input[type=submit]:hover {
   }
   #profile {
       height: 250px;
-      width: 250px;
+      width: 200px;
   }
   #portfoliobox {
       top: 100px;
@@ -357,7 +359,7 @@ input[type=submit]:hover {
   }
   #profile {
       height: 250px;
-      width: 250px;
+      width: 200px;
   }
   nav {
       float: none;
@@ -428,7 +430,7 @@ input[type=submit]:hover {
   }
   #profile {
       height: 250px;
-      width: 250px;
+      width: 200px;
   }
   nav {
       float: none;
