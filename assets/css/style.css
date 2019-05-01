@@ -121,6 +121,7 @@ img {
 }
 
 #portfoliobox {
+  margin-top: -20px;
   position: relative;
   left: 130px;
   top: 100px;
