@@ -208,7 +208,20 @@ input[type=submit]:hover {
   color: #ffffff;
   padding: 10px 3px;
 }
-
+#centered {
+  background-color: #53af90;
+  width: 96%;
+  position: absolute;
+  top: 79%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+  padding: 10px 3px;
+  margin-left: 5px;
+}
+iframe{
+  margin-left:10px;
+}
 @media screen and (max-width:980px) {
   #about {
       left: 50px;
