@@ -125,9 +125,10 @@ img {
   position: relative;
   left: 130px;
   top: 100px;
-  width: 1050px;
+  width: 932px;
   height: 600px;
   padding: 20px;
+  padding-left:75px;
   border: 1px solid #cccccc;
   overflow: auto;
   clear: both;
