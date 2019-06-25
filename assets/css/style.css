@@ -134,6 +134,7 @@ img {
   clear: both;
   color: #777777;
   background:rgba(255, 255, 255, 0.882);
+  text-align: center;
 }
 
 #hangman {
@@ -191,7 +192,9 @@ input[type=submit]:hover {
   border-radius: 5px;
   padding: 8px;
 }
-
+.contact-info{
+  text-align: center;
+}
 .img-container {
   position: relative;
   text-align: center;
