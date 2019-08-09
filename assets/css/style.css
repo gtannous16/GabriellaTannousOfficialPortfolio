@@ -5,6 +5,7 @@ p{
   font-family: 'Cormorant Upright', serif;
   font-size: 20px;
   font-weight: bold;
+  line-height: normal;
   color: #53af90;
 }
 body {
@@ -84,8 +85,8 @@ img {
 }
 #profile{
   padding: 10px;
-  height: 250px;
-  width: 200px;
+  height: 300px;
+  width: 240px;
 }
 #giticon{
   height: 50px !important;
@@ -124,7 +125,7 @@ img {
   margin-top: -20px;
   position: relative;
   left: 130px;
-  top: 100px;
+  top: 130px;
   width: 932px;
   height: 600px;
   padding: 20px;
@@ -134,7 +135,7 @@ img {
   clear: both;
   color: #777777;
   background:rgba(255, 255, 255, 0.882);
-  text-align: center;
+  text-align: left;
 }
 
 #hangman {
@@ -223,7 +224,7 @@ input[type=submit]:hover {
   margin-left: 3px;
 }
 #nodeapps {
-  margin-top:810px;
+  margin-top:1330px;
 }
 #centered1 {
   background-color: #53af90;
