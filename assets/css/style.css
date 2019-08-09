@@ -308,6 +308,9 @@ iframe{
       width: 90%;
       left: 50px;
   }
+  #nodeapps {
+    margin-top: 2000px;
+  }
   form{
     width: 100%;
     position: relative;
@@ -327,7 +330,9 @@ iframe{
       top: 100px;
       left: 80px;
       width: 80%;
-      align-items:
+      padding-right: 20px;
+      padding-left: 20px;
+    
   }
   header {
       width: 768px;
@@ -343,9 +348,14 @@ iframe{
       left: 60px
   }
   .centered {
-      width: 82%;
-      left: 45%;
+    width: 93%;
+    left: 50%;
   }
+  #centered1 {
+    width: 89.5%;
+    left: 50%;
+  }
+
   img {
       height: 100%;
       width: 100%;
@@ -362,6 +372,13 @@ iframe{
       left: 80px;
       width: 80%;
   }
+  #nodeapps {
+    margin-top: 65px;
+  }
+  #centered1 {
+    width: 70%;
+    left: 54%;
+}
   #name {
       width: 100%;
       float: none;
@@ -411,7 +428,7 @@ iframe{
       margin: 30px;
   }
   .centered {
-      width: 85%;
+      width: 86%;
       left: 54%;
       top: 250px;
   }
@@ -432,6 +449,18 @@ iframe{
       padding-left: 5px;
       padding-right: 5px;
   }
+  #nodeapps {
+    margin-top: 55px;
+  }
+  iframe{
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  #centered1 {
+      width: 101.5%;
+      left: 49.5%;
+  }
+}
   #name {
       width: 100%;
       float: none;
@@ -451,6 +480,7 @@ iframe{
       left: 40px;
       height: 70%;
   }
+
   form{
     width: 100%;
     position: relative;
